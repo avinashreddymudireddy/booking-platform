@@ -1,0 +1,25 @@
+node_modules
+# Sensitive environment and configuration files
+.env
+.env.*
+local.settings.json
+
+# Secrets and credentials
+*.key
+*.pem
+*_secret.*
+
+# Application configuration files (adjust as needed)
+config/*.json
+!config/example.json
+
+# Log files and debugging output
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+
+# IDEs and editors
+.idea/
+.vscode/

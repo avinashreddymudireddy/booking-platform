@@ -1,0 +1,14 @@
+{
+  "u1": {
+    "id": "u1",
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "profileImage": "images/alice.png"
+  },
+  "u2": {
+    "id": "u2",
+    "name": "Bob Johnson",
+    "email": "bob@example.com",
+    "profileImage": "images/bob.png"
+  }
+}

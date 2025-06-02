@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Summer Music Festival",
+    "date": "2025-07-15",
+    "location": "Central Park",
+    "description": "Enjoy live music from top artists this summer!"
+  },
+  {
+    "id": "2",
+    "title": "Art & Wine Night",
+    "date": "2025-08-02",
+    "location": "Downtown Gallery",
+    "description": "An evening of art exhibits and wine tasting."
+  }
+]

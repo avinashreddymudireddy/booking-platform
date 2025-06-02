@@ -1,0 +1,14 @@
+[
+  {
+    "id": "b1",
+    "eventId": "1",
+    "userId": "u1",
+    "status": "confirmed"
+  },
+  {
+    "id": "b2",
+    "eventId": "2",
+    "userId": "u2",
+    "status": "pending"
+  }
+]

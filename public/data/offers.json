@@ -1,0 +1,14 @@
+[
+  {
+    "id": "o1",
+    "title": "Early Bird Discount",
+    "description": "Get 20% off your first booking.",
+    "discount": "20%"
+  },
+  {
+    "id": "o2",
+    "title": "Group Saver",
+    "description": "Book for 5 or more and save 25%.",
+    "discount": "25%"
+  }
+]

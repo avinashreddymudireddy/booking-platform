@@ -1,0 +1,14 @@
+[
+  {
+    "id": "m1",
+    "title": "Inception",
+    "date": "2025-11-01",
+    "description": "A mind-bending thriller by Christopher Nolan."
+  },
+  {
+    "id": "m2",
+    "title": "The Matrix",
+    "date": "2025-09-15",
+    "description": "Science fiction action classic."
+  }
+]
