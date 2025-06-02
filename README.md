@@ -1,9 +1,17 @@
 # 🎫 Booking Platform
 
-## Overview
-The Booking Platform is a modern, full-stack application for event discovery, booking, and management. Built with React and Node.js, it offers a seamless experience for discovering and booking events, movies, and concerts. The platform features secure authentication, real-time notifications, and a responsive design system.
+A modern, scalable booking platform for events, movies, and concerts with a clean, consistent design system and maintainable architecture.
+
+## ✨ Features
+
+- **Event Management**: Create, modify, and manage events with rich media support
+- **User Management**: Role-based access control and profile management
+- **Booking System**: Real-time availability and secure payment processing
+- **Administrative Tools**: Comprehensive dashboard for analytics and management
+- **Support System**: Integrated ticket management for customer support
 
 ## 🏗️ Architecture
+
 ```
 ┌─────────────────┐     ┌──────────────────┐      ┌─────────────────┐
 │    Frontend     │     │     Backend      │      │    Database     │
@@ -20,101 +28,7 @@ The Booking Platform is a modern, full-stack application for event discovery, bo
 │  Client State   │     │   Server State   │      │   Data Model    │
 │    Management   │     │    & Caching     │      │  & Relations    │
 └─────────────────┘     └──────────────────┘      └─────────────────┘
-
-## 🚀 Quick Start
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/avinashreddymudireddy/booking-platform.git
-   cd booking-platform
-   ```
-
-2. Install dependencies:
-   ```bash
-   # Install frontend dependencies
-   npm install
-
-   # Install backend dependencies
-   cd src/backend
-   npm install
-   ```
-
-3. Create `.env` file in the root directory:
-   ```bash
-   # API Configuration
-   REACT_APP_API_URL=http://localhost:5002/api
-   REACT_APP_URL=http://localhost:5003
-
-   # Database Configuration
-   DB_USER=postgres
-   DB_PASSWORD=your_password
-   DB_NAME=booking_platform
-   DB_HOST=localhost
-
-   # Server Configuration
-   PORT=5002
-   NODE_ENV=development
-
-   # Security
-   JWT_SECRET=your-secret-key
-   JWT_EXPIRES_IN=24h
-   BCRYPT_SALT_ROUNDS=12
-   ```
-
-4. Start the development servers:
-   ```bash
-   # Start backend server (from src/backend directory)
-   npm start
-
-   # Start frontend server (from root directory)
-   npm start
-   ```
-
-## ✨ Features
-
-### User Features
-- 🎭 **Event Discovery**
-  - Browse curated events, movies, and concerts
-  - Advanced search and filtering
-  - Real-time availability updates
-  - Location-based recommendations
-
-- 🔐 **Authentication & Security**
-  - JWT-based secure authentication
-  - Role-based access control
-  - Password encryption with bcrypt
-  - Protected routes and API endpoints
-
-- 📱 **Responsive Interface**
-  - Material UI components
-  - Dark/Light mode support
-  - Mobile-first design
-  - Smooth animations and transitions
-
-- 🎫 **Booking Management**
-  - Multi-step booking wizard
-  - Real-time seat selection
-  - Booking history tracking
-  - E-ticket generation
-
-### Admin Features
-- 📊 **Dashboard**
-  - Event management
-  - User management
-  - Booking analytics
-  - Sales reports
-
-- 🎯 **Marketing Tools**
-  - Promotional offers
-  - Featured events
-  - Email notifications
-  - Customer engagement metrics
-
-- 🔧 **Support System**
-  - Ticket management
-  - Customer support portal
-  - Issue tracking
-  - Resolution management
+```
 
 ## 🛠️ Technical Stack
 
@@ -168,41 +82,54 @@ public/                 # Static assets
 └── data/             # Static data files
 ```
 
-## 🚀 Installation
+## 🚀 Quick Start
 
-### Prerequisites
-- Node.js 16.x or higher
-- PostgreSQL 14.x or higher
-- npm 8.x or higher
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/avinashreddymudireddy/booking-platform.git
+   cd booking-platform
+   ```
 
-### Required Global Packages
-```bash
-npm install -g nodemon sequelize-cli
-```
+2. Install dependencies:
+   ```bash
+   # Install frontend dependencies
+   npm install
 
-### Frontend Dependencies
-```bash
-# Core dependencies
-npm install react react-dom react-router-dom @mui/material @mui/icons-material @emotion/react @emotion/styled
+   # Install backend dependencies
+   cd src/backend
+   npm install
+   ```
 
-# Form handling and validation
-npm install react-hook-form yup @hookform/resolvers
+3. Create `.env` file in the root directory:
+   ```bash
+   # API Configuration
+   REACT_APP_API_URL=http://localhost:5002/api
+   REACT_APP_URL=http://localhost:5003
 
-# Utilities and helpers
-npm install axios date-fns lodash
-```
+   # Database Configuration
+   DB_USER=postgres
+   DB_PASSWORD=your_password
+   DB_NAME=booking_platform
+   DB_HOST=localhost
 
-### Backend Dependencies
-```bash
-# Core dependencies
-npm install express cors helmet dotenv
+   # Server Configuration
+   PORT=5002
+   NODE_ENV=development
 
-# Authentication and security
-npm install jsonwebtoken bcryptjs express-validator
+   # Security
+   JWT_SECRET=your-secret-key
+   JWT_EXPIRES_IN=24h
+   BCRYPT_SALT_ROUNDS=12
+   ```
 
-# Database
-npm install pg pg-hstore sequelize
-```
+4. Start the development servers:
+   ```bash
+   # Start backend server (from src/backend directory)
+   npm start
+
+   # Start frontend server (from root directory)
+   npm start
+   ```
 
 ## 🌐 Deployment
 
@@ -244,21 +171,15 @@ Includes GitHub Actions workflows for:
 - Automated deployments
 - Security scanning
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Create a pull request.
+## 📚 Documentation
+For more detailed information, check out the [project wiki](./docs/Home.md):
+- [System Architecture](./docs/architecture.md)
+- [Database Schema](./docs/database-schema.md)
+- [API Documentation](./docs/api-docs.md)
+- [Authentication Flow](./docs/auth-flow.md)
 
-## License
-This project is licensed under the MIT License.
+## 🤝 Contributing
+Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

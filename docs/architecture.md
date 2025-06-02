@@ -101,3 +101,50 @@ The Booking Platform follows a modern microservices-inspired architecture while 
 - CORS policy
 - API key authentication
 - Request validation
+
+## Deployment Architecture
+
+### Infrastructure
+- Azure App Service for backend
+- Azure Static Web Apps for frontend
+- Azure Database for PostgreSQL
+- Azure Blob Storage for media
+- Azure CDN for static assets
+
+### Monitoring
+- Azure Application Insights
+- Custom metrics and logging
+- Error tracking and reporting
+- Performance monitoring
+
+### Scalability
+- Horizontal scaling with App Service
+- Database connection pooling
+- Caching strategies
+- CDN for static assets
+
+## Development Architecture
+
+### Development Environment
+- Local development server
+- Hot reloading
+- Development database
+- Mock services
+
+### Testing Environment
+- Integration test database
+- Automated testing suite
+- Performance testing tools
+- Security scanning
+
+### Staging Environment
+- Production-like configuration
+- Data anonymization
+- Load testing
+- Security validation
+
+### Production Environment
+- High availability setup
+- Automated backups
+- Monitoring and alerts
+- SSL/TLS encryption

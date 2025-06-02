@@ -17,13 +17,13 @@ Welcome to the Booking Platform documentation! This wiki provides comprehensive 
 
 ### Event Management
 - Event creation and modification
-- Category management
+- Category management (Movies, Concerts, General Events)
 - Pricing and inventory control
 - Media management
 - Location and venue integration
 
 ### User Management
-- Role-based access control
+- Role-based access control (Admin/User)
 - Profile management
 - Booking history
 - Preferences and settings
@@ -64,12 +64,12 @@ graph TD
 ### Frontend Architecture
 - Component hierarchy
 - Routing structure
-- State management
-- UI/UX design system
+- State management with Context API
+- UI/UX design system with Material UI
 - Responsive layouts
 
 ### Backend Services
-- Authentication service
+- Authentication service (JWT)
 - Event management service
 - Booking service
 - Payment service
@@ -81,3 +81,71 @@ graph TD
 - Indexing strategy
 - Backup procedures
 - Data migration
+
+## 🔐 Security Considerations
+
+- JWT authentication
+- Input validation
+- SQL injection prevention
+- XSS protection
+- CSRF protection
+- Rate limiting
+
+## 🚀 Development Workflow
+
+1. **Setup**
+   - Clone repository
+   - Install dependencies
+   - Configure environment
+
+2. **Development**
+   - Local development server
+   - Code style guides
+   - Testing procedures
+   - Git workflow
+
+3. **Deployment**
+   - Building for production
+   - Environment configuration
+   - Azure deployment steps
+   - Monitoring setup
+
+## 📈 Performance Optimization
+
+- Code splitting
+- Image optimization
+- Caching strategies
+- Database indexing
+- API response optimization
+
+## 📱 Mobile Responsiveness
+
+- Fluid layouts
+- Touch interactions
+- Progressive enhancement
+- Mobile-specific features
+
+## 🧪 Testing Strategy
+
+- Unit tests
+- Integration tests
+- E2E tests
+- Performance testing
+- Security testing
+
+## 📦 Deployment Guide
+
+- Environment setup
+- Build process
+- Azure configuration
+- SSL certificates
+- Database migration
+- Monitoring setup
+
+## 🤝 Contributing Guidelines
+
+- Code standards
+- Git workflow
+- PR process
+- Documentation requirements
+- Testing requirements
