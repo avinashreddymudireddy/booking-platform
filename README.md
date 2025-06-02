@@ -3,6 +3,55 @@
 ## Overview
 The Booking Platform is a modern, scalable application designed for event discovery, booking, and user management. It aims to deliver a cohesive, responsive design system with robust backend integration and seamless user experience.
 
+## 🚀 Quick Start
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/avinashreddymudireddy/booking-platform.git
+   cd booking-platform
+   ```
+
+2. Install dependencies:
+   ```bash
+   # Install frontend dependencies
+   npm install
+
+   # Install backend dependencies
+   cd src/backend
+   npm install
+   ```
+
+3. Create `.env` file in the root directory:
+   ```bash
+   # API Configuration
+   REACT_APP_API_URL=http://localhost:5002/api
+   REACT_APP_URL=http://localhost:5003
+
+   # Database Configuration
+   DB_USER=postgres
+   DB_PASSWORD=your_password
+   DB_NAME=booking_platform
+   DB_HOST=localhost
+
+   # Server Configuration
+   PORT=5002
+   NODE_ENV=development
+
+   # Security
+   JWT_SECRET=your-secret-key
+   JWT_EXPIRES_IN=24h
+   BCRYPT_SALT_ROUNDS=12
+   ```
+
+4. Start the development servers:
+   ```bash
+   # Start backend server (from src/backend directory)
+   npm start
+
+   # Start frontend server (from root directory)
+   npm start
+   ```
+
 ## Features
 - **Event Discovery**: Browse events, movies, concerts, and offers.
 - **User Authentication**: Secure login and profile management.
